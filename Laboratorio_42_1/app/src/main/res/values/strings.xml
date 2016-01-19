@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laboratorio_42_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_segunda">Segunda Actividad</string>
+    <string name="buttonFirstName">Primer Botón</string>
+    <string name="buttonBack">Volver</string>
+
+</resources>
