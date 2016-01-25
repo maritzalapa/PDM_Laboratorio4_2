@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Laboratorio_42_2</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonFirstName">Presióname</string>
+    <string name="title_activity_second">Segunda Actividad</string>
+    <string name="buttonAname">Botón A</string>
+    <string name="buttonBname">Botón B</string>
+    <string name="buttonCname">Botón C</string>
+    <string name="buttonDname">Botón D</string>
+    <string name="buttonEname">Botón E</string>
+    <string name="buttonFname">Botón F</string>
+    <string name="buttonGname">Botón G</string>
+    <string name="buttonHname">Botón H</string>
+    <string name="buttonIname">Botón I</string>
+    <string name="buttonJname">Botón J</string>
+    <string name="mail">maritzalapa@gmail.com</string>
+    <string name="subject">Este es el asunto del mensaje de prueba</string>
+    <string name="envio">Enviar Mensaje...</string>
+    <string name="text">Este es el texto a compartir</string>
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

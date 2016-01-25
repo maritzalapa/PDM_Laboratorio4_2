@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.noa.laboratorio_42_2.SecondActivity"
+    tools:showIn="@layout/activity_second">
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonAname"
+        android:id="@+id/buttonA"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonAclick"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonBname"
+        android:id="@+id/buttonB"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="buttonBclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonCname"
+        android:id="@+id/buttonC"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/buttonA"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonCclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonDname"
+        android:id="@+id/buttonD"
+        android:layout_alignTop="@+id/buttonC"
+        android:layout_alignLeft="@+id/buttonB"
+        android:layout_alignStart="@+id/buttonB"
+        android:onClick="buttonDclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonEname"
+        android:id="@+id/buttonE"
+        android:layout_below="@+id/buttonC"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:onClick="buttonEclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonFname"
+        android:id="@+id/buttonF"
+        android:layout_alignBottom="@+id/buttonE"
+        android:layout_alignLeft="@+id/buttonD"
+        android:layout_alignStart="@+id/buttonD"
+        android:onClick="buttonFclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonGname"
+        android:id="@+id/buttonG"
+        android:layout_below="@+id/buttonE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:onClick="buttonGclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonHname"
+        android:id="@+id/buttonH"
+        android:layout_alignTop="@+id/buttonG"
+        android:layout_alignLeft="@+id/buttonF"
+        android:layout_alignStart="@+id/buttonF"
+        android:onClick="buttonHclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonIname"
+        android:id="@+id/buttonI"
+        android:layout_below="@+id/buttonG"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:onClick="buttonIclick" />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonJname"
+        android:id="@+id/buttonJ"
+        android:layout_alignTop="@+id/buttonI"
+        android:layout_alignLeft="@+id/buttonH"
+        android:layout_alignStart="@+id/buttonH"
+        android:onClick="buttonJclick" />
+</RelativeLayout>
